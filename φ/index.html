@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x+1</title>
+    <script src="plotly-2.4.2.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+</head>
+<body>
+    <h3 style="display: flex;">3x + 1</h3>
+    <div>
+        <fieldset>
+            <form method="post" name="data">
+                <legend>Inserta un numero</legend>
+                <input type="text" id="number">
+                <button id="start" type="button">Insertar</button>
+            </form>
+        </fieldset>
+    </div>
+    <div id="info" style="width:600px;height:250px;"></div>
+</body>
+<style>
+    .body{
+        background-color: azure;
+    }
+</style>
+<script src="./d.js"></script>
+
+</html>
