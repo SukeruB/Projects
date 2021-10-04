@@ -33,6 +33,7 @@ function plot(){
 }
 const startEcuation = document.getElementById("start");
 startEcuation.addEventListener("click", function(){
+  numbers.splice(0);
     let x = document.getElementById("number").value;
     calculateNumbers(x);
     plot();
