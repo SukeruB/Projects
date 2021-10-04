@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: auto;
+
+}
+.search-fieldset{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.input-search{
+    display: flex;
+    height: 30px;
+    width: 80%;
+}
+.legend-search{
+
+}
+.search-button{
+    display: flex;
+}
+.div-father{
+    margin-top: 10px;
+}
+.data-bar{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
